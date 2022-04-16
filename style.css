@@ -1,0 +1,598 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: quicksand;
+    list-style: none;
+    text-decoration: none;
+}
+#HOME{
+    display: flex;
+    background: url(images/Black.jpg);
+    background-size: 100% no-repeat;
+    z-index: 1;
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+}
+nav #icon{
+    z-index: 99;
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    line-height: 80px;
+    float: right;
+    cursor: pointer;
+    display: none;
+}
+label.logo{
+    border: 2px solid silver;
+    border-radius: 1px 20px 1px 20px;
+    background-color: #17191c;
+    letter-spacing: 3px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    padding: 0px 25px;
+    line-height: 50px;
+    margin-left: 4vw;
+    margin-top: 2vh;
+}
+nav{
+    position: absolute;
+    z-index: 10;
+    word-spacing: 15px;
+    font-weight: 500;
+    height: 80px;
+    width: 100%;
+    background-color: #17191c;
+}
+nav ul{
+    float: right;
+    margin-top: 3.6vh;
+    margin-right: 20px;
+    word-spacing: 3vw;
+}
+nav li{
+    display: inline;
+}
+nav a{
+    padding: 7px 7px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+nav a:hover{
+    border-radius: 1px 15px 1px 15px;
+    opacity: 100%;
+    color: black;
+    background-color: white;
+    transition: .5s;
+}
+section .text{
+    margin-top: -50px;
+    width: 90%;
+}
+#HOME h1{
+    text-decoration: overline #a0a1a5;
+    position: relative;
+    z-index: 2;
+    top: 30%;
+    left: 5%;
+    font-size: 50px;
+    color: white;
+    font-family: 'GFS Neohellenic', sans-serif;
+}
+#HOME h2{
+    position: relative;
+    z-index: 2;
+    top: 33%;
+    left: 5%;
+    font-size: 25px;
+    color: white;
+}
+#HOME p{
+    position: relative;
+    z-index: 2;
+    top: 30%;
+    left: 5%;
+    font-size: 1.2vw;
+    color: white;
+}
+.head{
+    transform: scaleX(-1);
+    position: relative;
+    z-index: 5;
+    opacity: 60%;
+    box-shadow: -1px 6px 24px -2px rgba(0,0,0,0.75);
+}
+.head:hover{
+    opacity: 70%;
+}
+.container{
+    display: none;
+}
+#HOME button{
+    float: left;
+    left: 29%;
+    top: 80vh;
+    position: absolute;
+    z-index: 11;
+    width: 90px;
+    height: 40px;
+}
+#HOME button:hover{
+    box-shadow: -1px 6px 33px 1px rgba(255,255,255,0.75);
+}
+@media (max-width: 425px){
+    .head{
+        display: none;
+    }
+    nav #icon{
+        top: 0px;
+        right: 5vw;
+        position: relative;
+        display: block;
+    }
+    nav ul{
+        z-index: 99;
+        opacity: 80%;
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: #17191c;
+        top: 6.5vh;
+        left: -120%;
+        transition: all .3s;
+    }
+    nav li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav a{
+        font-size: 20px;
+    }
+    a.active,a:hover{
+        border: hidden;
+        color: #f9f9ff;
+    }
+    nav ul.show{
+        left: 0;
+    }
+    #HOME h1{
+        font-weight: 1000;
+        font-size: 10vw;
+    }
+    #HOME h2{
+        font-size: 6vw;
+    }
+    #HOME p{
+        width: 90%;
+        font-size: 4.5vw;
+    }
+    #HOME button{
+        position: absolute;
+        margin: 2vh 10vw;
+        z-index: 2;
+    }
+}
+@media (min-width: 426px) and (max-width: 748px){
+    .head{
+        transform: scaleX(1);
+        display: flex;
+        position: absolute;
+        width: 95%;
+        height: 100%;
+        left: 1vw;
+        z-index: -1;
+        opacity: 20%;
+        box-shadow: none;
+    }
+    nav #icon{
+        top: 0px;
+        right: 5vw;
+        position: relative;
+        display: block;
+    }
+    nav ul{
+        z-index: 99;
+        opacity: 80%;
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: #17191c;
+        top: 6.5vh;
+        left: -120%;
+        transition: all .3s;
+    }
+    nav li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav a{
+        font-size: 20px;
+    }
+    a.active,a:hover{
+        border: hidden;
+        color: #f9f9ff;
+    }
+    nav ul.show{
+        left: 0;
+    }
+    #HOME h1{
+        font-weight: 1000;
+        font-size: 8vw;
+        margin-bottom: 10px;
+    }
+    #HOME h2{
+        font-size: 4vw;
+    }
+    #HOME p{
+        width: 90%;
+        font-size: 3.5vw;
+    }
+    #HOME button{
+        position: absolute;
+        margin: 2vh 10vw;
+        z-index: 2;
+    }
+}
+@media (min-width: 550px) and (max-width: 768px){
+    .head{
+        transform: scaleX(1);
+        display: flex;
+        position: absolute;
+        width: 500px;
+        height: 100%;
+        left: 1vw;
+        z-index: -1;
+        opacity: 20%;
+        box-shadow: none;
+    }
+    nav #icon{
+        top: 0px;
+        right: 5vw;
+        position: relative;
+        display: block;
+    }
+    nav ul{
+        z-index: 99;
+        opacity: 80%;
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: #17191c;
+        top: 6.5vh;
+        left: -120%;
+        transition: all .3s;
+    }
+    nav li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav a{
+        font-size: 20px;
+    }
+    a.active,a:hover{
+        border: hidden;
+        color: #f9f9ff;
+    }
+    nav ul.show{
+        left: 0;
+    }
+    #HOME h1{
+        font-weight: 1000;
+        font-size: 8vw;
+        margin-bottom: 10px;
+    }
+    #HOME h2{
+        font-size: 4vw;
+    }
+    #HOME p{
+        width: 90%;
+        font-size: 3.5vw;
+    }
+    #HOME button{
+        position: absolute;
+        left: 35%;
+        right: 35%;
+        margin: 2vh 10vw;
+        z-index: 2;
+    }
+}
+@media (min-width: 769px) and (max-width: 842px){
+    .head{
+        transform: scaleX(1);
+        display: flex;
+        position: absolute;
+        width: 500px;
+        height: 100%;
+        left: 1vw;
+        z-index: -1;
+        opacity: 20%;
+        box-shadow: none;
+    }
+    nav #icon{
+        top: 0px;
+        right: 5vw;
+        position: relative;
+        display: block;
+    }
+    nav ul{
+        z-index: 99;
+        opacity: 80%;
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: #17191c;
+        top: 6.5vh;
+        left: -120%;
+        transition: all .3s;
+    }
+    nav li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav a{
+        font-size: 20px;
+    }
+    a.active,a:hover{
+        border: hidden;
+        color: #f9f9ff;
+    }
+    nav ul.show{
+        left: 0;
+    }
+    #HOME h1{
+        font-weight: 1000;
+        font-size: 8vw;
+        margin-bottom: 10px;
+    }
+    #HOME h2{
+        font-size: 4vw;
+    }
+    #HOME p{
+        width: 90%;
+        font-size: 140%;
+    }
+    #HOME button{
+        position: absolute;
+        left: 35%;
+        right: 35%;
+        margin: 2vh 10vw;
+        z-index: 2;
+    }
+}
+@media (min-width: 843px) and (max-width: 945px){
+    nav a{
+        padding: 7px 7px;
+        color: white;
+        font-size: 1.9vw;
+        text-decoration: none;
+    }
+}
+@media (min-width: 843px) and (max-width: 992px){
+    .head{
+        opacity: 60%;
+    }
+    #HOME p{
+        font-size: 2vw;
+    }
+    #HOME button{
+        position: absolute;
+        left: 14vw;
+        right: 14vw;
+        margin: 2vh 1vw;
+        z-index: 2;
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1200px){
+    #HOME p{
+        font-size: 2vw;
+    }
+    #HOME button{
+        position: absolute;
+        left: 20%;
+        right: 20%;
+        margin: 2vh 1vw;
+        z-index: 2;
+    }
+}
+
+@media (min-width: 1021px){
+    #HOME p{
+        font-size: 1.5vw;
+    }
+    #HOME button{
+        position: absolute;
+        left: 25%;
+        right: 25%;
+        margin: 2vh 1vw;
+        z-index: 2;
+    }
+}
+/* ========================== */
+/*     SECTION 2 (ABOUT)      */
+/* ========================== */
+
+#ABOUT{
+    background: url(images/Black2.jpg);
+    background-size: 100% no-repeat;
+    z-index: 1;
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 100%;
+}
+#ABOUT .container1{
+    display: flex;
+    flex-direction: column;
+    opacity: 100%;
+    background: #17191c;
+    z-index: 2;
+    border: 2px solid white;
+    border-radius: 20px 20px 20px 20px;
+    width: 80%;
+    height: 80vh;
+    margin-top: 10vh;
+    margin-left: 10%;
+    box-sizing: content-box;
+}
+#ABOUT .text{
+    color: white;
+    position: absolute;
+    width: 45%;
+    top: 4vh;
+    left: 0vw;
+    height: 30vh;
+    font-size: 1.5vw;
+    width: 95%;
+}
+#ABOUT h1{
+    font-size: 300%;
+    left: 24.3vw;
+    text-align: center;
+    color: white;
+    margin: 20px;
+}
+#ABOUT .pfp{
+    border: 2px white solid;
+    border-radius: 10px 10px 10px 10px;
+    position: absolute;
+    margin: 15vh 50px;
+    width: 23vw;
+    height: 50vh;
+    float: left;
+}
+#ABOUT .desc{
+    color: white;
+    position: absolute;
+    top: 27vh;
+    left: 40vw;
+    height: 30vh;
+    font-size: 1.5vw;
+}
+#ABOUT p{
+    color: white;
+    position: absolute;
+    width: 45%;
+    top: 60vh;
+    left: 40vw;
+    height: 30vh;
+    font-size: 1.5vw;
+}
+
+@media (max-width: 425px){
+    #ABOUT .container1{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 80%;
+        height: 80vh;
+        margin-top: 10vh;
+        margin-left: 10%;
+        box-sizing: content-box;
+    }
+    #ABOUT h1{
+        position: relative;
+        font-size: 10vw;
+        left: 1vw;
+        text-align: center;
+        color: white;
+        width: 100%;
+        margin: 20px;
+    }
+    #ABOUT .pfp{
+        border: 2px white solid;
+        border-radius: 10px 10px 10px 10px;
+        position: absolute;
+        margin: 13vh 1px;
+        width: 40vw;
+        height: 40vw;
+        float: left;
+    }
+    #ABOUT .desc{
+        height: 20vh;
+        width: 70vw;
+        position: relative;
+        left: 20vw;
+        top: 37vh;
+    }
+    #ABOUT p{
+        height: 20vh;
+        width: 65vw;
+        position: relative;
+        left: 20vw;
+        top: 40vh;
+        font-size: 3.5vw;
+    }
+}
+@media (min-width: 663px) and (max-width: 748px){
+    #ABOUT .container1{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 80%;
+        height: 80vh;
+        margin-top: 10vh;
+        margin-left: 10%;
+        box-sizing: content-box;
+    }
+    #ABOUT h1{
+        position: relative;
+        font-size: 10vw;
+        left: 1vw;
+        text-align: center;
+        color: white;
+        width: 100%;
+        margin: 20px;
+    }
+    #ABOUT .pfp{
+        border: 2px white solid;
+        border-radius: 10px 10px 10px 10px;
+        position: absolute;
+        left: 15vw;
+        margin: 13vh 1px;
+        width: 30vw;
+        height: 30vw;
+        float: left;
+    }
+    #ABOUT .desc{
+        height: 20vh;
+        width: 35vw;
+        position: relative;
+        left: 50vw;
+        top: 18vh;
+        font-size: 1.8vw;
+    }
+    #ABOUT p{
+        height: 20vh;
+        width: 65vw;
+        position: relative;
+        left: 20vw;
+        top: 40vh;
+        font-size: 3.5vw;
+    }
+}
+/* ========================== */
+/*    SECTION 3 (PORTFOLIO)   */
+/* ========================== */
+
+#PORTFOLIO{
+    background: url(images/Black2.jpg);
+    background-size: 100% no-repeat;
+    z-index: 1;
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 200%;
+}
