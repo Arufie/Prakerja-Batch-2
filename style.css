@@ -143,17 +143,17 @@ section .text{
         width: 100%;
         height: 100vh;
         background-color: #17191c;
-        top: 6.5vh;
+        top: 11.3vh;
         left: -120%;
         transition: all .3s;
     }
     nav li{
         display: block;
         margin: 50px 0;
-        line-height: 30px;
+        line-height: 10px;
     }
     nav a{
-        font-size: 20px;
+        font-size: 10px;
     }
     a.active,a:hover{
         border: hidden;
@@ -164,19 +164,20 @@ section .text{
     }
     #HOME h1{
         font-weight: 1000;
-        font-size: 10vw;
+        font-size: 8vw;
     }
     #HOME h2{
-        font-size: 6vw;
+        font-size: 4vw;
     }
     #HOME p{
         width: 90%;
-        font-size: 4.5vw;
+        font-size: 2.5vw;
     }
     #HOME button{
         position: absolute;
-        margin: 2vh 10vw;
+        margin: 1vh 8.5vw;
         z-index: 2;
+        font-size: 3vw;
     }
 }
 @media (min-width: 426px) and (max-width: 748px){
@@ -184,7 +185,7 @@ section .text{
         transform: scaleX(1);
         display: flex;
         position: absolute;
-        width: 95%;
+        width: 70%;
         height: 100%;
         left: 1vw;
         z-index: -1;
@@ -204,17 +205,17 @@ section .text{
         width: 100%;
         height: 100vh;
         background-color: #17191c;
-        top: 6.5vh;
+        top: 11.3vh;
         left: -120%;
         transition: all .3s;
     }
     nav li{
         display: block;
         margin: 50px 0;
-        line-height: 30px;
+        line-height: 10px;
     }
     nav a{
-        font-size: 20px;
+        font-size: 10px;
     }
     a.active,a:hover{
         border: hidden;
@@ -225,7 +226,7 @@ section .text{
     }
     #HOME h1{
         font-weight: 1000;
-        font-size: 8vw;
+        font-size: 5vw;
         margin-bottom: 10px;
     }
     #HOME h2{
@@ -233,7 +234,7 @@ section .text{
     }
     #HOME p{
         width: 90%;
-        font-size: 3.5vw;
+        font-size: 3vw;
     }
     #HOME button{
         position: absolute;
@@ -246,7 +247,7 @@ section .text{
         transform: scaleX(1);
         display: flex;
         position: absolute;
-        width: 500px;
+        width: 50%;
         height: 100%;
         left: 1vw;
         z-index: -1;
@@ -266,17 +267,17 @@ section .text{
         width: 100%;
         height: 100vh;
         background-color: #17191c;
-        top: 6.5vh;
+        top: 11.3vh;
         left: -120%;
         transition: all .3s;
     }
     nav li{
         display: block;
         margin: 50px 0;
-        line-height: 30px;
+        line-height: 10px;
     }
     nav a{
-        font-size: 20px;
+        font-size: 10px;
     }
     a.active,a:hover{
         border: hidden;
@@ -287,7 +288,7 @@ section .text{
     }
     #HOME h1{
         font-weight: 1000;
-        font-size: 8vw;
+        font-size: 5vw;
         margin-bottom: 10px;
     }
     #HOME h2{
@@ -295,7 +296,7 @@ section .text{
     }
     #HOME p{
         width: 90%;
-        font-size: 3.5vw;
+        font-size: 1.5vw;
     }
     #HOME button{
         position: absolute;
@@ -305,12 +306,12 @@ section .text{
         z-index: 2;
     }
 }
-@media (min-width: 769px) and (max-width: 842px){
+@media (min-width: 769px) and (max-width: 780px){
     .head{
         transform: scaleX(1);
         display: flex;
         position: absolute;
-        width: 500px;
+        width: 50%;
         height: 100%;
         left: 1vw;
         z-index: -1;
@@ -330,17 +331,17 @@ section .text{
         width: 100%;
         height: 100vh;
         background-color: #17191c;
-        top: 6.5vh;
+        top: 11.3vh;
         left: -120%;
         transition: all .3s;
     }
     nav li{
         display: block;
         margin: 50px 0;
-        line-height: 30px;
+        line-height: 10px;
     }
     nav a{
-        font-size: 20px;
+        font-size: 10px;
     }
     a.active,a:hover{
         border: hidden;
@@ -351,15 +352,15 @@ section .text{
     }
     #HOME h1{
         font-weight: 1000;
-        font-size: 8vw;
+        font-size: 4vw;
         margin-bottom: 10px;
     }
     #HOME h2{
-        font-size: 4vw;
+        font-size: 2vw;
     }
     #HOME p{
         width: 90%;
-        font-size: 140%;
+        font-size: 110%;
     }
     #HOME button{
         position: absolute;
@@ -369,33 +370,70 @@ section .text{
         z-index: 2;
     }
 }
-@media (min-width: 843px) and (max-width: 945px){
+@media (min-width: 781px) and (max-width: 945px){
+    .head{
+        width: 50%;
+    }
     nav a{
         padding: 7px 7px;
         color: white;
-        font-size: 1.9vw;
+        font-size: 1.75vw;
         text-decoration: none;
+    }
+    #HOME h1{
+        font-weight: 1000;
+        font-size: 3vw;
+        margin-bottom: 1px;
+    }
+    #HOME h2{
+        font-size: 2vw;
+    }
+    #HOME p{
+        width: 90%;
+        font-size: 75%;
+    }
+    #HOME button{
+        position: absolute;
+        left: 9%;
+        right: 9%;
+        margin: 2vh 10vw;
+        z-index: 2;
     }
 }
 @media (min-width: 843px) and (max-width: 992px){
     .head{
-        opacity: 60%;
+        width: 50%;
+    }
+    #HOME h1{
+        font-size: 3vw;
+    }
+    #HOME h2{
+        font-size: 2vw;
     }
     #HOME p{
-        font-size: 2vw;
+        font-size: 1vw;
     }
     #HOME button{
         position: absolute;
-        left: 14vw;
-        right: 14vw;
+        left: 20%;
+        right: 20%;
         margin: 2vh 1vw;
         z-index: 2;
     }
 }
 
 @media (min-width: 993px) and (max-width: 1200px){
-    #HOME p{
+    .head{
+        width: 50%;
+    }
+    #HOME h1{
+        font-size: 3vw;
+    }
+    #HOME h2{
         font-size: 2vw;
+    }
+    #HOME p{
+        font-size: 1vw;
     }
     #HOME button{
         position: absolute;
@@ -446,18 +484,8 @@ section .text{
     margin-left: 10%;
     box-sizing: content-box;
 }
-#ABOUT .text{
-    color: white;
-    position: absolute;
-    width: 45%;
-    top: 4vh;
-    left: 0vw;
-    height: 30vh;
-    font-size: 1.5vw;
-    width: 95%;
-}
 #ABOUT h1{
-    font-size: 300%;
+    font-size: 3.1vw;
     left: 24.3vw;
     text-align: center;
     color: white;
@@ -467,18 +495,17 @@ section .text{
     border: 2px white solid;
     border-radius: 10px 10px 10px 10px;
     position: absolute;
-    margin: 15vh 50px;
-    width: 23vw;
+    margin: 19vh 50px;
+    width: 50vh;
     height: 50vh;
     float: left;
 }
 #ABOUT .desc{
     color: white;
     position: absolute;
-    top: 27vh;
+    top: 30vh;
     left: 40vw;
-    height: 30vh;
-    font-size: 1.5vw;
+    height: 26vh;
 }
 #ABOUT p{
     color: white;
@@ -487,7 +514,7 @@ section .text{
     top: 60vh;
     left: 40vw;
     height: 30vh;
-    font-size: 1.5vw;
+    font-size: 1.2vw;
 }
 
 @media (max-width: 425px){
@@ -495,16 +522,16 @@ section .text{
         display: flex;
         flex-direction: row;
         justify-content: center;
-        width: 80%;
+        width: 85%;
         height: 80vh;
         margin-top: 10vh;
-        margin-left: 10%;
+        margin-left: 7.5%;
         box-sizing: content-box;
     }
     #ABOUT h1{
         position: relative;
-        font-size: 10vw;
-        left: 1vw;
+        font-size: 30px;
+        left: 0vw;
         text-align: center;
         color: white;
         width: 100%;
@@ -512,45 +539,97 @@ section .text{
     }
     #ABOUT .pfp{
         border: 2px white solid;
+        justify-self: center;
         border-radius: 10px 10px 10px 10px;
         position: absolute;
-        margin: 13vh 1px;
-        width: 40vw;
-        height: 40vw;
-        float: left;
+        margin: 12vh;
+        width: 20vh;
+        height: 20vh;
     }
     #ABOUT .desc{
-        height: 20vh;
-        width: 70vw;
-        position: relative;
-        left: 20vw;
-        top: 37vh;
+        color: white;
+        position: absolute;
+        top: 46vh;
+        left: 15vw;
+        height: 1vh;
+        width: 75%;
+        font-size: 1vw;
     }
     #ABOUT p{
-        height: 20vh;
-        width: 65vw;
-        position: relative;
-        left: 20vw;
-        top: 40vh;
-        font-size: 3.5vw;
+        color: white;
+        position: absolute;
+        width: 75vw;
+        top: 67vh;
+        left: 15vw;
+        height: 30vh;
+        font-size: 1vh;
     }
 }
-@media (min-width: 663px) and (max-width: 748px){
+
+@media (min-width: 426px) and (max-width: 526px){
     #ABOUT .container1{
         display: flex;
-        flex-direction: row;
-        justify-content: center;
-        width: 80%;
+        flex-direction: column;
+        width: 85%;
         height: 80vh;
         margin-top: 10vh;
-        margin-left: 10%;
+        margin-left: 7.5%;
         box-sizing: content-box;
     }
     #ABOUT h1{
         position: relative;
-        font-size: 10vw;
-        left: 1vw;
-        text-align: center;
+        font-size: 30px;
+        left: 0vw;
+        align-self: center;
+        color: white;
+        width: 100%;
+        margin: 20px;
+    }
+    #ABOUT .pfp{
+        border: 2px white solid;
+        border-radius: 10px 10px 10px 10px;
+        align-self: center;
+        object-fit: cover;
+        position: absolute;
+        margin: 12vh;
+        width: 110px;
+        height: 20vh;
+    }
+    #ABOUT .desc{
+        color: white;
+        position: absolute;
+        top: 45vh;
+        left: 15vw;
+        height: 1vh;
+        width: 75%;
+        font-size: 1vw;
+    }
+    #ABOUT p{
+        color: white;
+        position: absolute;
+        width: 75vw;
+        top: 67vh;
+        left: 15vw;
+        height: 30vh;
+        font-size: 1vh;
+    }
+}
+
+@media (min-width: 527px) and (max-width: 656px){
+    #ABOUT .container1{
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+        height: 80vh;
+        margin-top: 10vh;
+        margin-left: 7.5%;
+        box-sizing: content-box;
+    }
+    #ABOUT h1{
+        position: relative;
+        font-size: 30px;
+        left: 0vw;
+        align-self: center;
         color: white;
         width: 100%;
         margin: 20px;
@@ -559,27 +638,220 @@ section .text{
         border: 2px white solid;
         border-radius: 10px 10px 10px 10px;
         position: absolute;
-        left: 15vw;
-        margin: 13vh 1px;
-        width: 30vw;
-        height: 30vw;
-        float: left;
+        left: 5%;
+        margin: 12vh;
+        width: 125px;
+        height: 25vh;
     }
     #ABOUT .desc{
-        height: 20vh;
-        width: 35vw;
-        position: relative;
-        left: 50vw;
-        top: 18vh;
-        font-size: 1.8vw;
+        color: white;
+        position: absolute;
+        top: 26vh;
+        left: 43vw;
+        height: 1vh;
+        width: 45%;
+        font-size: 1vw;
     }
     #ABOUT p{
-        height: 20vh;
-        width: 65vw;
+        color: white;
+        position: absolute;
+        width: 75vw;
+        top: 58vh;
+        left: 15vw;
+        height: 30vh;
+        font-size: 3vh;
+    }
+}
+
+@media (min-width: 657px) and (max-width: 842px){
+    #ABOUT .container1{
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+        height: 80vh;
+        margin-top: 10vh;
+        margin-left: 7.5%;
+        box-sizing: content-box;
+    }
+    #ABOUT h1{
         position: relative;
-        left: 20vw;
-        top: 40vh;
-        font-size: 3.5vw;
+        font-size: 35px;
+        left: 0vw;
+        align-self: center;
+        color: white;
+        width: 100%;
+        margin: 20px;
+    }
+    #ABOUT .pfp{
+        border: 2px white solid;
+        border-radius: 10px 10px 10px 10px;
+        position: absolute;
+        left: 5%;
+        margin: 12vh;
+        width: 155px;
+        height: 30vh;
+    }
+    #ABOUT .desc{
+        color: white;
+        position: absolute;
+        top: 26vh;
+        left: 43vw;
+        height: 1vh;
+        width: 45%;
+        font-size: 2.5vw 1.5vh;
+    }
+    #ABOUT p{
+        color: white;
+        position: absolute;
+        width: 75vw;
+        top: 62vh;
+        left: 15vw;
+        height: 30vh;
+        font-size: 3vh;
+    }
+}
+
+@media (min-width: 843px) and (max-width: 922px){
+    #ABOUT .container1{
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+        height: 80vh;
+        margin-top: 10vh;
+        margin-left: 7.5%;
+        box-sizing: content-box;
+    }
+    #ABOUT h1{
+        position: relative;
+        font-size: 35px;
+        left: 0vw;
+        align-self: center;
+        color: white;
+        width: 100%;
+        margin: 20px;
+    }
+    #ABOUT .pfp{
+        border: 2px white solid;
+        border-radius: 10px 10px 10px 10px;
+        position: absolute;
+        left: 5%;
+        margin: 18vh 10vh;
+        width: 45vh;
+        height: 45vh;
+    }
+    #ABOUT .desc{
+        color: white;
+        position: absolute;
+        top: 28vh;
+        left: 43vw;
+        height: 1vh;
+        width: 45%;
+        font-size: 2.5vw 1.5vh;
+    }
+    #ABOUT p{
+        color: white;
+        position: absolute;
+        width: 48vw;
+        top: 54vh;
+        left: 43vw;
+        height: 30vh;
+        font-size: 3vh;
+    }
+}
+
+@media (min-width: 923px) and (max-width: 1024px){
+    #ABOUT .container1{
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+        height: 80vh;
+        margin-top: 10vh;
+        margin-left: 7.5%;
+        box-sizing: content-box;
+    }
+    #ABOUT h1{
+        position: relative;
+        font-size: 35px;
+        left: 0vw;
+        align-self: center;
+        color: white;
+        width: 100%;
+        margin: 20px;
+    }
+    #ABOUT .pfp{
+        border: 2px white solid;
+        border-radius: 10px 10px 10px 10px;
+        position: absolute;
+        left: 7%;
+        margin: 18vh 10vh;
+        width: 45vh;
+        height: 45vh;
+    }
+    #ABOUT .desc{
+        color: white;
+        position: absolute;
+        top: 28vh;
+        left: 40%;
+        height: 1vh;
+        width: 45%;
+        font-size: 2.5vw 1.5vh;
+    }
+    #ABOUT p{
+        color: white;
+        position: absolute;
+        width: 48vw;
+        top: 54vh;
+        left: 40%;
+        height: 30vh;
+        font-size: 3vh;
+    }
+}
+
+@media (min-width: 1025px) and (max-width:1150px){
+    #ABOUT .container1{
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+        height: 80vh;
+        margin-top: 10vh;
+        margin-left: 7.5%;
+        box-sizing: content-box;
+    }
+    #ABOUT h1{
+        position: relative;
+        font-size: 35px;
+        left: 0vw;
+        align-self: center;
+        color: white;
+        width: 100%;
+        margin: 20px;
+    }
+    #ABOUT .pfp{
+        border: 2px white solid;
+        border-radius: 10px 10px 10px 10px;
+        position: absolute;
+        left: 10%;
+        margin: 18vh 10vh;
+        width: 45vh;
+        height: 45vh;
+    }
+    #ABOUT .desc{
+        color: white;
+        position: absolute;
+        top: 28vh;
+        left: 40%;
+        height: 1vh;
+        width: 45%;
+        font-size: 2.5vw 1.5vh;
+    }
+    #ABOUT p{
+        color: white;
+        position: absolute;
+        width: 48vw;
+        top: 54vh;
+        left: 40%;
+        height: 30vh;
+        font-size: 3vh;
     }
 }
 /* ========================== */
