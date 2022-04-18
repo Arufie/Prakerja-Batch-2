@@ -1,11 +1,12 @@
-*{
+* {
     padding: 0;
     margin: 0;
     font-family: quicksand;
     list-style: none;
     text-decoration: none;
 }
-#HOME{
+
+#HOME {
     display: flex;
     background: url(images/Black.jpg);
     background-size: 100% no-repeat;
@@ -16,7 +17,8 @@
     left: 0;
     top: 0;
 }
-nav #icon{
+
+nav #icon {
     z-index: 99;
     position: absolute;
     color: white;
@@ -26,7 +28,8 @@ nav #icon{
     cursor: pointer;
     display: none;
 }
-label.logo{
+
+label.logo {
     border: 2px solid silver;
     border-radius: 1px 20px 1px 20px;
     background-color: #17191c;
@@ -40,7 +43,8 @@ label.logo{
     margin-left: 4vw;
     margin-top: 2vh;
 }
-nav{
+
+nav {
     position: absolute;
     z-index: 10;
     word-spacing: 15px;
@@ -49,33 +53,39 @@ nav{
     width: 100%;
     background-color: #17191c;
 }
-nav ul{
+
+nav ul {
     float: right;
     margin-top: 3.6vh;
     margin-right: 20px;
     word-spacing: 3vw;
 }
-nav li{
+
+nav li {
     display: inline;
 }
-nav a{
+
+nav a {
     padding: 7px 7px;
     color: white;
     font-size: 20px;
     text-decoration: none;
 }
-nav a:hover{
+
+nav a:hover {
     border-radius: 1px 15px 1px 15px;
     opacity: 100%;
     color: black;
     background-color: white;
     transition: .5s;
 }
-section .text{
+
+section .text {
     margin-top: -50px;
     width: 90%;
 }
-#HOME h1{
+
+#HOME h1 {
     text-decoration: overline #a0a1a5;
     position: relative;
     z-index: 2;
@@ -85,7 +95,8 @@ section .text{
     color: white;
     font-family: 'GFS Neohellenic', sans-serif;
 }
-#HOME h2{
+
+#HOME h2 {
     position: relative;
     z-index: 2;
     top: 33%;
@@ -93,7 +104,8 @@ section .text{
     font-size: 25px;
     color: white;
 }
-#HOME p{
+
+#HOME p {
     position: relative;
     z-index: 2;
     top: 30%;
@@ -101,20 +113,24 @@ section .text{
     font-size: 1.2vw;
     color: white;
 }
-.head{
+
+.head {
     transform: scaleX(-1);
     position: relative;
     z-index: 5;
     opacity: 60%;
-    box-shadow: -1px 6px 24px -2px rgba(0,0,0,0.75);
+    box-shadow: -1px 6px 24px -2px rgba(0, 0, 0, 0.75);
 }
-.head:hover{
+
+.head:hover {
     opacity: 70%;
 }
-.container{
+
+.container {
     display: none;
 }
-#HOME button{
+
+#HOME button {
     float: left;
     left: 29%;
     top: 80vh;
@@ -123,20 +139,24 @@ section .text{
     width: 90px;
     height: 40px;
 }
-#HOME button:hover{
-    box-shadow: -1px 6px 33px 1px rgba(255,255,255,0.75);
+
+#HOME button:hover {
+    box-shadow: -1px 6px 33px 1px rgba(255, 255, 255, 0.75);
 }
-@media (max-width: 425px){
-    .head{
+
+@media (max-width: 425px) {
+    .head {
         display: none;
     }
-    nav #icon{
+
+    nav #icon {
         top: 0px;
         right: 5vw;
         position: relative;
         display: block;
     }
-    nav ul{
+
+    nav ul {
         z-index: 99;
         opacity: 80%;
         position: fixed;
@@ -147,41 +167,51 @@ section .text{
         left: -120%;
         transition: all .3s;
     }
-    nav li{
+
+    nav li {
         display: block;
         margin: 50px 0;
         line-height: 10px;
     }
-    nav a{
+
+    nav a {
         font-size: 10px;
     }
-    a.active,a:hover{
+
+    a.active,
+    a:hover {
         border: hidden;
         color: #f9f9ff;
     }
-    nav ul.show{
+
+    nav ul.show {
         left: 0;
     }
-    #HOME h1{
+
+    #HOME h1 {
         font-weight: 1000;
         font-size: 8vw;
     }
-    #HOME h2{
+
+    #HOME h2 {
         font-size: 4vw;
     }
-    #HOME p{
+
+    #HOME p {
         width: 90%;
         font-size: 2.5vw;
     }
-    #HOME button{
+
+    #HOME button {
         position: absolute;
         margin: 1vh 8.5vw;
         z-index: 2;
         font-size: 3vw;
     }
 }
-@media (min-width: 426px) and (max-width: 748px){
-    .head{
+
+@media (min-width: 426px) and (max-width: 748px) {
+    .head {
         transform: scaleX(1);
         display: flex;
         position: absolute;
@@ -192,13 +222,15 @@ section .text{
         opacity: 20%;
         box-shadow: none;
     }
-    nav #icon{
+
+    nav #icon {
         top: 0px;
         right: 5vw;
         position: relative;
         display: block;
     }
-    nav ul{
+
+    nav ul {
         z-index: 99;
         opacity: 80%;
         position: fixed;
@@ -209,41 +241,51 @@ section .text{
         left: -120%;
         transition: all .3s;
     }
-    nav li{
+
+    nav li {
         display: block;
         margin: 50px 0;
         line-height: 10px;
     }
-    nav a{
+
+    nav a {
         font-size: 10px;
     }
-    a.active,a:hover{
+
+    a.active,
+    a:hover {
         border: hidden;
         color: #f9f9ff;
     }
-    nav ul.show{
+
+    nav ul.show {
         left: 0;
     }
-    #HOME h1{
+
+    #HOME h1 {
         font-weight: 1000;
         font-size: 5vw;
         margin-bottom: 10px;
     }
-    #HOME h2{
+
+    #HOME h2 {
         font-size: 4vw;
     }
-    #HOME p{
+
+    #HOME p {
         width: 90%;
         font-size: 3vw;
     }
-    #HOME button{
+
+    #HOME button {
         position: absolute;
         margin: 2vh 10vw;
         z-index: 2;
     }
 }
-@media (min-width: 550px) and (max-width: 768px){
-    .head{
+
+@media (min-width: 550px) and (max-width: 768px) {
+    .head {
         transform: scaleX(1);
         display: flex;
         position: absolute;
@@ -254,13 +296,15 @@ section .text{
         opacity: 20%;
         box-shadow: none;
     }
-    nav #icon{
+
+    nav #icon {
         top: 0px;
         right: 5vw;
         position: relative;
         display: block;
     }
-    nav ul{
+
+    nav ul {
         z-index: 99;
         opacity: 80%;
         position: fixed;
@@ -271,34 +315,43 @@ section .text{
         left: -120%;
         transition: all .3s;
     }
-    nav li{
+
+    nav li {
         display: block;
         margin: 50px 0;
         line-height: 10px;
     }
-    nav a{
+
+    nav a {
         font-size: 10px;
     }
-    a.active,a:hover{
+
+    a.active,
+    a:hover {
         border: hidden;
         color: #f9f9ff;
     }
-    nav ul.show{
+
+    nav ul.show {
         left: 0;
     }
-    #HOME h1{
+
+    #HOME h1 {
         font-weight: 1000;
         font-size: 5vw;
         margin-bottom: 10px;
     }
-    #HOME h2{
+
+    #HOME h2 {
         font-size: 4vw;
     }
-    #HOME p{
+
+    #HOME p {
         width: 90%;
         font-size: 1.5vw;
     }
-    #HOME button{
+
+    #HOME button {
         position: absolute;
         left: 35%;
         right: 35%;
@@ -306,8 +359,9 @@ section .text{
         z-index: 2;
     }
 }
-@media (min-width: 769px) and (max-width: 780px){
-    .head{
+
+@media (min-width: 769px) and (max-width: 780px) {
+    .head {
         transform: scaleX(1);
         display: flex;
         position: absolute;
@@ -318,13 +372,15 @@ section .text{
         opacity: 20%;
         box-shadow: none;
     }
-    nav #icon{
+
+    nav #icon {
         top: 0px;
         right: 5vw;
         position: relative;
         display: block;
     }
-    nav ul{
+
+    nav ul {
         z-index: 99;
         opacity: 80%;
         position: fixed;
@@ -335,34 +391,43 @@ section .text{
         left: -120%;
         transition: all .3s;
     }
-    nav li{
+
+    nav li {
         display: block;
         margin: 50px 0;
         line-height: 10px;
     }
-    nav a{
+
+    nav a {
         font-size: 10px;
     }
-    a.active,a:hover{
+
+    a.active,
+    a:hover {
         border: hidden;
         color: #f9f9ff;
     }
-    nav ul.show{
+
+    nav ul.show {
         left: 0;
     }
-    #HOME h1{
+
+    #HOME h1 {
         font-weight: 1000;
         font-size: 4vw;
         margin-bottom: 10px;
     }
-    #HOME h2{
+
+    #HOME h2 {
         font-size: 2vw;
     }
-    #HOME p{
+
+    #HOME p {
         width: 90%;
         font-size: 110%;
     }
-    #HOME button{
+
+    #HOME button {
         position: absolute;
         left: 35%;
         right: 35%;
@@ -370,29 +435,35 @@ section .text{
         z-index: 2;
     }
 }
-@media (min-width: 781px) and (max-width: 945px){
-    .head{
+
+@media (min-width: 781px) and (max-width: 945px) {
+    .head {
         width: 50%;
     }
-    nav a{
+
+    nav a {
         padding: 7px 7px;
         color: white;
         font-size: 1.75vw;
         text-decoration: none;
     }
-    #HOME h1{
+
+    #HOME h1 {
         font-weight: 1000;
         font-size: 3vw;
         margin-bottom: 1px;
     }
-    #HOME h2{
+
+    #HOME h2 {
         font-size: 2vw;
     }
-    #HOME p{
+
+    #HOME p {
         width: 90%;
         font-size: 75%;
     }
-    #HOME button{
+
+    #HOME button {
         position: absolute;
         left: 9%;
         right: 9%;
@@ -400,20 +471,25 @@ section .text{
         z-index: 2;
     }
 }
-@media (min-width: 843px) and (max-width: 992px){
-    .head{
+
+@media (min-width: 843px) and (max-width: 992px) {
+    .head {
         width: 50%;
     }
-    #HOME h1{
+
+    #HOME h1 {
         font-size: 3vw;
     }
-    #HOME h2{
+
+    #HOME h2 {
         font-size: 2vw;
     }
-    #HOME p{
+
+    #HOME p {
         font-size: 1vw;
     }
-    #HOME button{
+
+    #HOME button {
         position: absolute;
         left: 20%;
         right: 20%;
@@ -422,20 +498,24 @@ section .text{
     }
 }
 
-@media (min-width: 993px) and (max-width: 1200px){
-    .head{
+@media (min-width: 993px) and (max-width: 1200px) {
+    .head {
         width: 50%;
     }
-    #HOME h1{
+
+    #HOME h1 {
         font-size: 3vw;
     }
-    #HOME h2{
+
+    #HOME h2 {
         font-size: 2vw;
     }
-    #HOME p{
+
+    #HOME p {
         font-size: 1vw;
     }
-    #HOME button{
+
+    #HOME button {
         position: absolute;
         left: 20%;
         right: 20%;
@@ -444,11 +524,12 @@ section .text{
     }
 }
 
-@media (min-width: 1021px){
-    #HOME p{
+@media (min-width: 1021px) {
+    #HOME p {
         font-size: 1.5vw;
     }
-    #HOME button{
+
+    #HOME button {
         position: absolute;
         left: 25%;
         right: 25%;
@@ -461,7 +542,7 @@ section .text{
 /*     SECTION 2 (ABOUT)      */
 /* ========================== */
 
-#ABOUT{
+#ABOUT {
     background: url(images/Black2.jpg);
     background-size: 100% no-repeat;
     z-index: 1;
@@ -471,7 +552,8 @@ section .text{
     left: 0;
     top: 100%;
 }
-#ABOUT .container1{
+
+#ABOUT .container1 {
     display: flex;
     flex-direction: column;
     opacity: 100%;
@@ -485,14 +567,16 @@ section .text{
     margin-left: 10%;
     box-sizing: content-box;
 }
-#ABOUT h1{
+
+#ABOUT h1 {
     font-size: 3.1vw;
     left: 24.3vw;
     text-align: center;
     color: white;
     margin: 20px;
 }
-#ABOUT .pfp{
+
+#ABOUT .pfp {
     border: 2px white solid;
     border-radius: 10px 10px 10px 10px;
     position: absolute;
@@ -501,13 +585,15 @@ section .text{
     height: 50vh;
     float: left;
 }
-#ABOUT .desc{
+
+#ABOUT .desc {
     color: white;
     position: absolute;
     top: 30vh;
     left: 40vw;
     height: 26vh;
 }
+
 #ABOUT p{
     color: white;
     position: absolute;
@@ -518,8 +604,8 @@ section .text{
     font-size: 1.2vw;
 }
 
-@media (max-width: 425px){
-    #ABOUT .container1{
+@media (max-width: 425px) {
+    #ABOUT .container1 {
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -529,7 +615,8 @@ section .text{
         margin-left: 7.5%;
         box-sizing: content-box;
     }
-    #ABOUT h1{
+
+    #ABOUT h1 {
         position: relative;
         font-size: 30px;
         left: 0vw;
@@ -538,7 +625,8 @@ section .text{
         width: 100%;
         margin: 20px;
     }
-    #ABOUT .pfp{
+
+    #ABOUT .pfp {
         border: 2px white solid;
         justify-self: center;
         border-radius: 10px 10px 10px 10px;
@@ -547,7 +635,8 @@ section .text{
         width: 20vh;
         height: 20vh;
     }
-    #ABOUT .desc{
+
+    #ABOUT .desc {
         color: white;
         position: absolute;
         top: 46vh;
@@ -556,7 +645,8 @@ section .text{
         width: 75%;
         font-size: 1vw;
     }
-    #ABOUT p{
+
+    #ABOUT p {
         color: white;
         position: absolute;
         width: 75vw;
@@ -567,8 +657,8 @@ section .text{
     }
 }
 
-@media (min-width: 426px) and (max-width: 526px){
-    #ABOUT .container1{
+@media (min-width: 426px) and (max-width: 526px) {
+    #ABOUT .container1 {
         display: flex;
         flex-direction: column;
         width: 85%;
@@ -577,7 +667,8 @@ section .text{
         margin-left: 7.5%;
         box-sizing: content-box;
     }
-    #ABOUT h1{
+
+    #ABOUT h1 {
         position: relative;
         font-size: 30px;
         left: 0vw;
@@ -586,7 +677,8 @@ section .text{
         width: 100%;
         margin: 20px;
     }
-    #ABOUT .pfp{
+
+    #ABOUT .pfp {
         border: 2px white solid;
         border-radius: 10px 10px 10px 10px;
         align-self: center;
@@ -596,7 +688,8 @@ section .text{
         width: 110px;
         height: 20vh;
     }
-    #ABOUT .desc{
+
+    #ABOUT .desc {
         color: white;
         position: absolute;
         top: 45vh;
@@ -605,7 +698,8 @@ section .text{
         width: 75%;
         font-size: 1vw;
     }
-    #ABOUT p{
+
+    #ABOUT p {
         color: white;
         position: absolute;
         width: 75vw;
@@ -616,8 +710,8 @@ section .text{
     }
 }
 
-@media (min-width: 527px) and (max-width: 656px){
-    #ABOUT .container1{
+@media (min-width: 527px) and (max-width: 506px) {
+    #ABOUT .container1 {
         display: flex;
         flex-direction: column;
         width: 85%;
@@ -626,7 +720,8 @@ section .text{
         margin-left: 7.5%;
         box-sizing: content-box;
     }
-    #ABOUT h1{
+
+    #ABOUT h1 {
         position: relative;
         font-size: 30px;
         left: 0vw;
@@ -635,7 +730,8 @@ section .text{
         width: 100%;
         margin: 20px;
     }
-    #ABOUT .pfp{
+
+    #ABOUT .pfp {
         border: 2px white solid;
         border-radius: 10px 10px 10px 10px;
         position: absolute;
@@ -644,7 +740,8 @@ section .text{
         width: 125px;
         height: 25vh;
     }
-    #ABOUT .desc{
+
+    #ABOUT .desc {
         color: white;
         position: absolute;
         top: 26vh;
@@ -653,7 +750,8 @@ section .text{
         width: 45%;
         font-size: 1vw;
     }
-    #ABOUT p{
+
+    #ABOUT p {
         color: white;
         position: absolute;
         width: 75vw;
@@ -664,8 +762,8 @@ section .text{
     }
 }
 
-@media (min-width: 657px) and (max-width: 842px){
-    #ABOUT .container1{
+@media (min-width: 507px) and (max-width: 842px) {
+    #ABOUT .container1 {
         display: flex;
         flex-direction: column;
         width: 85%;
@@ -674,7 +772,8 @@ section .text{
         margin-left: 7.5%;
         box-sizing: content-box;
     }
-    #ABOUT h1{
+
+    #ABOUT h1 {
         position: relative;
         font-size: 35px;
         left: 0vw;
@@ -683,7 +782,8 @@ section .text{
         width: 100%;
         margin: 20px;
     }
-    #ABOUT .pfp{
+
+    #ABOUT .pfp {
         border: 2px white solid;
         border-radius: 10px 10px 10px 10px;
         position: absolute;
@@ -692,7 +792,8 @@ section .text{
         width: 155px;
         height: 30vh;
     }
-    #ABOUT .desc{
+
+    #ABOUT .desc {
         color: white;
         position: absolute;
         top: 26vh;
@@ -701,7 +802,8 @@ section .text{
         width: 45%;
         font-size: 2.5vw 1.5vh;
     }
-    #ABOUT p{
+
+    #ABOUT p {
         color: white;
         position: absolute;
         width: 75vw;
@@ -712,8 +814,8 @@ section .text{
     }
 }
 
-@media (min-width: 843px) and (max-width: 922px){
-    #ABOUT .container1{
+@media (min-width: 843px) and (max-width: 922px) {
+    #ABOUT .container1 {
         display: flex;
         flex-direction: column;
         width: 85%;
@@ -722,7 +824,8 @@ section .text{
         margin-left: 7.5%;
         box-sizing: content-box;
     }
-    #ABOUT h1{
+
+    #ABOUT h1 {
         position: relative;
         font-size: 35px;
         left: 0vw;
@@ -731,7 +834,8 @@ section .text{
         width: 100%;
         margin: 20px;
     }
-    #ABOUT .pfp{
+
+    #ABOUT .pfp {
         border: 2px white solid;
         border-radius: 10px 10px 10px 10px;
         position: absolute;
@@ -740,7 +844,8 @@ section .text{
         width: 45vh;
         height: 45vh;
     }
-    #ABOUT .desc{
+
+    #ABOUT .desc {
         color: white;
         position: absolute;
         top: 28vh;
@@ -749,7 +854,8 @@ section .text{
         width: 45%;
         font-size: 2.5vw 1.5vh;
     }
-    #ABOUT p{
+
+    #ABOUT p {
         color: white;
         position: absolute;
         width: 48vw;
@@ -760,8 +866,8 @@ section .text{
     }
 }
 
-@media (min-width: 923px) and (max-width: 1024px){
-    #ABOUT .container1{
+@media (min-width: 923px) and (max-width: 1024px) {
+    #ABOUT .container1 {
         display: flex;
         flex-direction: column;
         width: 85%;
@@ -770,7 +876,8 @@ section .text{
         margin-left: 7.5%;
         box-sizing: content-box;
     }
-    #ABOUT h1{
+
+    #ABOUT h1 {
         position: relative;
         font-size: 35px;
         left: 0vw;
@@ -779,7 +886,8 @@ section .text{
         width: 100%;
         margin: 20px;
     }
-    #ABOUT .pfp{
+
+    #ABOUT .pfp {
         border: 2px white solid;
         border-radius: 10px 10px 10px 10px;
         position: absolute;
@@ -788,7 +896,8 @@ section .text{
         width: 45vh;
         height: 45vh;
     }
-    #ABOUT .desc{
+
+    #ABOUT .desc {
         color: white;
         position: absolute;
         top: 28vh;
@@ -797,7 +906,8 @@ section .text{
         width: 45%;
         font-size: 2.5vw 1.5vh;
     }
-    #ABOUT p{
+
+    #ABOUT p {
         color: white;
         position: absolute;
         width: 48vw;
@@ -808,8 +918,8 @@ section .text{
     }
 }
 
-@media (min-width: 1025px) and (max-width:1150px){
-    #ABOUT .container1{
+@media (min-width: 1025px) and (max-width:1150px) {
+    #ABOUT .container1 {
         display: flex;
         flex-direction: column;
         width: 85%;
@@ -818,7 +928,8 @@ section .text{
         margin-left: 7.5%;
         box-sizing: content-box;
     }
-    #ABOUT h1{
+
+    #ABOUT h1 {
         position: relative;
         font-size: 35px;
         left: 0vw;
@@ -827,7 +938,8 @@ section .text{
         width: 100%;
         margin: 20px;
     }
-    #ABOUT .pfp{
+
+    #ABOUT .pfp {
         border: 2px white solid;
         border-radius: 10px 10px 10px 10px;
         position: absolute;
@@ -836,7 +948,8 @@ section .text{
         width: 45vh;
         height: 45vh;
     }
-    #ABOUT .desc{
+
+    #ABOUT .desc {
         color: white;
         position: absolute;
         top: 28vh;
@@ -845,7 +958,8 @@ section .text{
         width: 45%;
         font-size: 2.5vw 1.5vh;
     }
-    #ABOUT p{
+
+    #ABOUT p {
         color: white;
         position: absolute;
         width: 48vw;
@@ -860,7 +974,7 @@ section .text{
 /*    SECTION 3 (PORTFOLIO)   */
 /* ========================== */
 
-#PORTFOLIO{
+#PORTFOLIO {
     display: flex;
     justify-content: center;
     background: #141218;
@@ -874,19 +988,22 @@ section .text{
     display: flex;
     flex-direction: column;
 }
-#PORTFOLIO h1{
+
+#PORTFOLIO h1 {
     color: white;
     text-align: center;
     background-color: #110f16;
     padding: 0px 20px;
     border-radius: 10px;
 }
-#PORTFOLIO .link1{
+
+#PORTFOLIO .link1 {
     position: absolute;
     top: 15vh;
     left: 35vw;
 }
-#PORTFOLIO .pf1{
+
+#PORTFOLIO .pf1 {
     position: absolute;
     border: 2px solid whitesmoke;
     border-radius: 10px;
@@ -896,39 +1013,45 @@ section .text{
     color: white;
     cursor: pointer;
 }
-#PORTFOLIO .container{
+
+#PORTFOLIO .container {
     display: flex;
     border-radius: 10px;
     margin: 60vh;
     position: absolute;
 }
-#PORTFOLIO div img{
+
+#PORTFOLIO div img {
     flex-wrap: wrap;
     width: 20vw;
     height: 10vw;
 }
-#PORTFOLIO div.images{
+
+#PORTFOLIO div.images {
     justify-content: space-around;
     width: 100%;
 }
 
-@media (max-width: 440px){
-    #PORTFOLIO{
+@media (max-width: 440px) {
+    #PORTFOLIO {
         display: flex;
         justify-content: center;
         flex-direction: row;
     }
-    #PORTFOLIO .link1{
+
+    #PORTFOLIO .link1 {
         position: absolute;
         top: 15vh;
         left: 15vw;
     }
-    #PORTFOLIO .pf1{
+
+    #PORTFOLIO .pf1 {
         position: relative;
         width: 70vw;
         height: 45vw;
     }
-    #PORTFOLIO .container{
+
+    #PORTFOLIO .container {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
@@ -938,32 +1061,37 @@ section .text{
         margin: 30vh;
         position: absolute;
     }
-    #PORTFOLIO div img{
+
+    #PORTFOLIO div img {
         width: 35vw;
         height: 25vw;
     }
-    #PORTFOLIO div.images{
+
+    #PORTFOLIO div.images {
         width: 20%;
     }
 }
 
-@media (min-width:441px) and (max-width: 568px){
-    #PORTFOLIO{
+@media (min-width:441px) and (max-width: 568px) {
+    #PORTFOLIO {
         display: flex;
         justify-content: center;
         flex-direction: row;
     }
-    #PORTFOLIO .link1{
+
+    #PORTFOLIO .link1 {
         position: absolute;
         top: 15vh;
         left: 25vw;
     }
-    #PORTFOLIO .pf1{
+
+    #PORTFOLIO .pf1 {
         position: relative;
         width: 50vw;
         height: 30vw;
     }
-    #PORTFOLIO .container{
+
+    #PORTFOLIO .container {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
@@ -975,66 +1103,76 @@ section .text{
         margin: 25vh;
         position: absolute;
     }
-    #PORTFOLIO div img{
+
+    #PORTFOLIO div img {
         width: 30vw;
         height: 20vw;
     }
-    #PORTFOLIO div.images{
+
+    #PORTFOLIO div.images {
         width: 20%;
     }
 }
 
-@media (min-width:569px) and (max-width: 798px){
-    #PORTFOLIO{
+@media (min-width:569px) and (max-width: 798px) {
+    #PORTFOLIO {
         display: flex;
         justify-content: center;
         flex-direction: row;
     }
-    #PORTFOLIO .link1{
+
+    #PORTFOLIO .link1 {
         position: absolute;
         top: 15vh;
         left: 25vw;
     }
-    #PORTFOLIO .pf1{
+
+    #PORTFOLIO .pf1 {
         position: relative;
         width: 50vw;
         height: 30vw;
     }
-    #PORTFOLIO .container{
+
+    #PORTFOLIO .container {
         display: flex;
         justify-content: space-evenly;
         gap: 18px;
         width: 100%;
-        margin: 65vh;
+        margin: 50vh;
         position: absolute;
     }
-    #PORTFOLIO div img{
+
+    #PORTFOLIO div img {
         width: 22vw;
         height: 17vw;
     }
-    #PORTFOLIO div.images{
+
+    #PORTFOLIO div.images {
         justify-content: space-around;
         width: 100%;
     }
 }
 
-@media (min-width:799px) and (max-width: 992px){
-    #PORTFOLIO{
+@media (min-width:799px) and (max-width: 992px) {
+    #PORTFOLIO {
         display: flex;
         justify-content: center;
         flex-direction: row;
     }
-    #PORTFOLIO .link1{
+
+    #PORTFOLIO .link1 {
         position: absolute;
         top: 15vh;
         left: 35vw;
     }
-    #PORTFOLIO .pf1{
+
+    #PORTFOLIO .pf1 {
         position: relative;
         width: 30vw;
         height: 20vw;
     }
-    #PORTFOLIO .container{
+
+    #PORTFOLIO .container {
         display: flex;
         justify-content: space-evenly;
         gap: 18px;
@@ -1042,33 +1180,38 @@ section .text{
         margin: 55vh;
         position: absolute;
     }
-    #PORTFOLIO div img{
+
+    #PORTFOLIO div img {
         width: 22vw;
         height: 15vw;
     }
-    #PORTFOLIO div.images{
+
+    #PORTFOLIO div.images {
         justify-content: space-around;
         width: 100%;
     }
 }
 
-@media (min-width: 993px){
-    #PORTFOLIO{
+@media (min-width: 993px) {
+    #PORTFOLIO {
         display: flex;
         justify-content: center;
         flex-direction: row;
     }
-    #PORTFOLIO .link1{
+
+    #PORTFOLIO .link1 {
         position: absolute;
         top: 15vh;
         left: 37.3vw;
     }
-    #PORTFOLIO .pf1{
+
+    #PORTFOLIO .pf1 {
         position: relative;
         width: 25vw;
         height: 15vw;
     }
-    #PORTFOLIO .container{
+
+    #PORTFOLIO .container {
         display: flex;
         justify-content: space-evenly;
         gap: 18px;
@@ -1076,11 +1219,13 @@ section .text{
         margin: 55vh;
         position: absolute;
     }
-    #PORTFOLIO div img{
+
+    #PORTFOLIO div img {
         width: 22vw;
         height: 15vw;
     }
-    #PORTFOLIO div.images{
+
+    #PORTFOLIO div.images {
         justify-content: space-around;
         width: 100%;
     }
@@ -1090,7 +1235,7 @@ section .text{
 /*      SECTION 4 (BLOG)      */
 /* ========================== */
 
-#BLOG{
+#BLOG {
     display: flex;
     flex-direction: column;
     justify-self: center;
@@ -1102,16 +1247,19 @@ section .text{
     left: 0;
     top: 300%;
 }
-.container{
+
+.container {
     display: flex;
     justify-content: center;
 }
-#BLOG h1{
+
+#BLOG h1 {
     color: white;
     font-size: 42.5px;
     text-align: center;
 }
-#BLOG .article1{
+
+#BLOG .article1 {
     background-color: #212837;
     z-index: 2;
     position: absolute;
@@ -1122,38 +1270,45 @@ section .text{
     height: 32vw;
     box-shadow: 11px 11px 12px 2px rgba(253, 203, 77, 0.72);
 }
-#BLOG .article1:hover{
+
+#BLOG .article1:hover {
     box-shadow: 11px 11px 12px 2px #fac339;
 }
-#BLOG .article1 h4{
+
+#BLOG .article1 h4 {
     color: white;
     font-weight: 600;
     font-family: 'GFS Neohellenic', sans-serif;
     margin: 10px 2px;
 }
-#BLOG .article1 p{
+
+#BLOG .article1 p {
     color: white;
     font-size: 1.1vw;
     margin: 15px 3px;
 }
-#BLOG .article1 a{
+
+#BLOG .article1 a {
     color: #ff6962;
     text-decoration: none;
     cursor: pointer;
     font-size: 1.2vw;
     margin: 0px 3px;
 }
-#BLOG .article1 a:hover{
+
+#BLOG .article1 a:hover {
     color: #ffbf1c;
 }
-#BLOG .article1 img{
+
+#BLOG .article1 img {
     border-radius: 10px 10px 4px 4px;
     width: 99.9%;
     height: 15vw;
 }
+
 /* ========================================================= */
 
-#BLOG .article2{
+#BLOG .article2 {
     background-color: #212837;
     z-index: 2;
     position: absolute;
@@ -1164,31 +1319,37 @@ section .text{
     height: 32vw;
     box-shadow: 11px 11px 12px 2px #b50202;
 }
-#BLOG .article2:hover{
+
+#BLOG .article2:hover {
     box-shadow: 11px 11px 12px 2px #cd0900;
 }
-#BLOG .article2 h4{
+
+#BLOG .article2 h4 {
     color: white;
     font-weight: 600;
     font-family: 'GFS Neohellenic', sans-serif;
     margin: 10px 2px;
 }
-#BLOG .article2 p{
+
+#BLOG .article2 p {
     color: white;
     font-size: 1.1vw;
     margin: 15px 3px;
 }
-#BLOG .article2 a{
+
+#BLOG .article2 a {
     color: #ff6962;
     text-decoration: none;
     cursor: pointer;
     font-size: 1.2vw;
     margin: 0px 3px;
 }
-#BLOG .article2 a:hover{
+
+#BLOG .article2 a:hover {
     color: #b50202;
 }
-#BLOG .article2 img{
+
+#BLOG .article2 img {
     border-radius: 10px 10px 4px 4px;
     width: 99.9%;
     height: 15vw;
@@ -1196,52 +1357,299 @@ section .text{
 
 /* ========================================================= */
 
-#BLOG .article3{
+#BLOG .article3 {
     background-color: #212837;
     z-index: 2;
     position: absolute;
-    border: 2px solid #c6b68d;
+    border: 2px solid #8f9baa;
     width: 25vw;
     border-radius: 10px;
     margin: 5vw 69vw;
     height: 32vw;
-    box-shadow: 11px 11px 12px 2px rgba(253, 203, 77, 0.72);
+    box-shadow: 11px 11px 12px 2px #8f9baa;
 }
-#BLOG .article3:hover{
-    box-shadow: 11px 11px 12px 2px #fac339;
+
+#BLOG .article3:hover {
+    box-shadow: 11px 11px 12px 2px #cfdbeb;
 }
-#BLOG .article3 h4{
+
+#BLOG .article3 h4 {
     color: white;
     font-weight: 600;
     font-family: 'GFS Neohellenic', sans-serif;
     margin: 10px 2px;
 }
-#BLOG .article3 p{
+
+#BLOG .article3 p {
     color: white;
     font-size: 1.1vw;
     margin: 15px 3px;
 }
-#BLOG .article3 a{
+
+#BLOG .article3 a {
     color: #ff6962;
     text-decoration: none;
     cursor: pointer;
     font-size: 1.2vw;
-    margin: 0px 3px;
+    margin: 10px 3px;
 }
-#BLOG .article3 a:hover{
-    color: #ffbf1c;
+
+#BLOG .article3 a:hover {
+    color: #8f9baa;
 }
-#BLOG .article3 img{
+
+#BLOG .article3 img {
     border-radius: 10px 10px 4px 4px;
     width: 99.9%;
     height: 15vw;
+}
+
+@media (max-width: 490px) {
+    #BLOG {
+        display: flex;
+        justify-self: center;
+        justify-content: center;
+        flex-direction: row;
+        background: #141218;
+        z-index: 1;
+        position: absolute;
+        min-height: 100%;
+        min-width: 100%;
+        left: 0;
+        top: 300%;
+    }
+
+    #BLOG h1 {
+        color: white;
+        font-size: 35px;
+        text-align: center;
+    }
+
+    #BLOG .container2 p {
+        display: none;
+    }
+
+    #BLOG .container2 h4 {
+        font-size: 5vw;
+    }
+
+    #BLOG div.container2 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 10px 85px;
+        width: 100%;
+        height: 50vh;
+        margin: 8vh;
+        position: absolute;
+    }
+
+    #BLOG .container2 img {
+        height: 70px;
+    }
+
+    #BLOG .article1 {
+        border: 2px solid #8f9baa;
+        width: 40vw;
+        height: 35vh;
+        border-radius: 10px;
+    }
+
+    #BLOG .article2 {
+        border: 2px solid #8f9baa;
+        width: 40vw;
+        height: 35vh;
+        border-radius: 10px;
+        position: absolute;
+        left: 20vw;
+    }
+
+    #BLOG .article3 {
+        border: 2px solid #8f9baa;
+        position: absolute;
+        width: 40vw;
+        height: 35vh;
+        top: 45vh;
+        right: -40vw;
+        border-radius: 10px;
+    }
+
+    #BLOG .container2 a {
+        position: absolute;
+        top: 20vh;
+        font-size: 15px;
+    }
+}
+
+@media (min-width:491px) and (max-width: 560px) {
+    #BLOG {
+        display: flex;
+        justify-self: center;
+        justify-content: center;
+        flex-direction: row;
+        background: #141218;
+        z-index: 1;
+        position: absolute;
+        min-height: 100%;
+        min-width: 100%;
+        left: 0;
+        top: 300%;
+    }
+
+    #BLOG h1 {
+        color: white;
+        font-size: 35px;
+        text-align: center;
+    }
+
+    #BLOG .container2 p {
+        display: none;
+    }
+
+    #BLOG .container2 h4 {
+        font-size: 5vw;
+    }
+
+    #BLOG div.container2 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 10px 85px;
+        width: 100%;
+        height: 50vh;
+        margin: 8vh;
+        position: absolute;
+    }
+
+    #BLOG .container2 img {
+        height: 70px;
+    }
+
+    #BLOG .article1{
+        border: 2px solid #8f9baa;
+        width: 40vw;
+        height: 40vh;
+        border-radius: 10px;
+    }
+
+    #BLOG .article2 {
+        border: 2px solid #8f9baa;
+        width: 40vw;
+        height: 40vh;
+        border-radius: 10px;
+        position: absolute;
+        left: 20vw;
+    }
+
+    #BLOG .article3 {
+        border: 2px solid #8f9baa;
+        position: absolute;
+        width: 40vw;
+        height: 40vh;
+        top: 45vh;
+        right: -40vw;
+        border-radius: 10px;
+    }
+
+    #BLOG .container2 a {
+        position: absolute;
+        top: 20vh;
+        font-size: 15px;
+    }
+}
+
+@media (min-width:561px) and (max-width: 650px){
+    #BLOG .article1{
+        height: 65vh;
+    }
+
+    #BLOG .article2 {
+        height: 65vh;
+    }
+
+    #BLOG .article3{
+        height: 65vh;
+    }
+    #BLOG .container p{
+        font-size: 1px;
+    }
+}
+
+@media (min-width:651px) and (max-width: 690px){
+    #BLOG .article1{
+        height: 65vh;
+    }
+
+    #BLOG .article2 {
+        height: 65vh;
+    }
+
+    #BLOG .article3{
+        height: 65vh;
+    }
+    #BLOG .container p{
+        font-size: 1px;
+    }
+}
+
+@media (min-width:691px) and (max-width: 750px){
+    #BLOG .article1{
+        height: 65vh;
+    }
+
+    #BLOG .article2 {
+        height: 65vh;
+    }
+
+    #BLOG .article3{
+        height: 65vh;
+    }
+    #BLOG .container p{
+        font-size: 1px;
+    }
+}
+
+@media (min-width:751px) and (max-width: 950px){
+    #BLOG .article1{
+        height: 62vh;
+    }
+
+    #BLOG .article2 {
+        height: 62vh;
+    }
+
+    #BLOG .article3{
+        height: 62vh;
+    }
+    #BLOG .container p{
+        font-size: 1px;
+    }
+}
+
+@media (min-width:951px) and (max-width: 1200px){
+    #BLOG .article1{
+        height: 62vh;
+    }
+
+    #BLOG .article2 {
+        height: 62vh;
+    }
+
+    #BLOG .article3{
+        height: 62vh;
+    }
+    #BLOG .container p{
+        font-size: 1px;
+    }
 }
 
 /* ========================== */
 /*      SECTION 5 (TEAM)      */
 /* ========================== */
 
-#TEAM{
+#TEAM {
     background: #141218;
     background-size: 100% no-repeat;
     z-index: 1;
@@ -1251,7 +1659,8 @@ section .text{
     left: 0;
     top: 400%;
 }
-#TEAM h1{
+
+#TEAM h1 {
     color: white;
     font-size: 42.5px;
     text-align: center;
@@ -1261,7 +1670,7 @@ section .text{
 /*     SECTION 6 (CONTACT)    */
 /* ========================== */
 
-#CONTACT{
+#CONTACT {
     background: #181818;
     background-size: 100% no-repeat;
     z-index: 1;
