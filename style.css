@@ -636,14 +636,14 @@ section .text {
         height: 20vh;
     }
 
-    #ABOUT .desc {
+    #ABOUT .desc{
         color: white;
         position: absolute;
         top: 46vh;
         left: 15vw;
         height: 1vh;
         width: 75%;
-        font-size: 1vw;
+        font-size: 4vw;
     }
 
     #ABOUT p {
@@ -653,7 +653,7 @@ section .text {
         top: 67vh;
         left: 15vw;
         height: 30vh;
-        font-size: 1vh;
+        font-size: 2.2vh;
     }
 }
 
@@ -685,7 +685,7 @@ section .text {
         object-fit: cover;
         position: absolute;
         margin: 12vh;
-        width: 110px;
+        width: 130px;
         height: 20vh;
     }
 
@@ -696,7 +696,7 @@ section .text {
         left: 15vw;
         height: 1vh;
         width: 75%;
-        font-size: 1vw;
+        font-size: 3vw;
     }
 
     #ABOUT p {
@@ -706,11 +706,11 @@ section .text {
         top: 67vh;
         left: 15vw;
         height: 30vh;
-        font-size: 1vh;
+        font-size: 2.4vh;
     }
 }
 
-@media (min-width: 527px) and (max-width: 506px) {
+@media (min-width: 527px) and (max-width: 656px) {
     #ABOUT .container1 {
         display: flex;
         flex-direction: column;
@@ -736,9 +736,10 @@ section .text {
         border-radius: 10px 10px 10px 10px;
         position: absolute;
         left: 5%;
+        top: 12vh;
         margin: 12vh;
         width: 125px;
-        height: 25vh;
+        height: 20vh;
     }
 
     #ABOUT .desc {
@@ -748,7 +749,7 @@ section .text {
         left: 43vw;
         height: 1vh;
         width: 45%;
-        font-size: 1vw;
+        font-size: 2.4vw;
     }
 
     #ABOUT p {
@@ -762,7 +763,7 @@ section .text {
     }
 }
 
-@media (min-width: 507px) and (max-width: 842px) {
+@media (min-width: 657px) and (max-width: 842px) {
     #ABOUT .container1 {
         display: flex;
         flex-direction: column;
@@ -786,31 +787,35 @@ section .text {
     #ABOUT .pfp {
         border: 2px white solid;
         border-radius: 10px 10px 10px 10px;
+        align-self: center;
+        object-fit: cover;
         position: absolute;
-        left: 5%;
         margin: 12vh;
-        width: 155px;
+        width: 200px;
         height: 30vh;
+    }
+    #ABOUT img{
+        align-self: center;
     }
 
     #ABOUT .desc {
         color: white;
         position: absolute;
-        top: 26vh;
-        left: 43vw;
+        top: 55vh;
+        left: 15vw;
         height: 1vh;
-        width: 45%;
-        font-size: 2.5vw 1.5vh;
+        width: 50%;
+        font-size: 2.1vw;
     }
 
     #ABOUT p {
         color: white;
         position: absolute;
         width: 75vw;
-        top: 62vh;
+        top: 78vh;
         left: 15vw;
         height: 30vh;
-        font-size: 3vh;
+        font-size: 2.2vh;
     }
 }
 
@@ -849,20 +854,20 @@ section .text {
         color: white;
         position: absolute;
         top: 28vh;
-        left: 43vw;
+        left: 50vw;
         height: 1vh;
         width: 45%;
-        font-size: 2.5vw 1.5vh;
+        font-size: 2vw
     }
 
     #ABOUT p {
         color: white;
         position: absolute;
-        width: 48vw;
+        width: 38vw;
         top: 54vh;
-        left: 43vw;
+        left: 50vw;
         height: 30vh;
-        font-size: 3vh;
+        font-size: 2.5vh;
     }
 }
 
@@ -901,7 +906,7 @@ section .text {
         color: white;
         position: absolute;
         top: 28vh;
-        left: 40%;
+        left: 48vw;
         height: 1vh;
         width: 45%;
         font-size: 2.5vw 1.5vh;
@@ -910,15 +915,15 @@ section .text {
     #ABOUT p {
         color: white;
         position: absolute;
-        width: 48vw;
+        width: 43vw;
         top: 54vh;
-        left: 40%;
+        left: 48vw;
         height: 30vh;
         font-size: 3vh;
     }
 }
 
-@media (min-width: 1025px) and (max-width:1150px) {
+@media (min-width: 1025px) and (max-width:1200px) {
     #ABOUT .container1 {
         display: flex;
         flex-direction: column;
@@ -953,7 +958,7 @@ section .text {
         color: white;
         position: absolute;
         top: 28vh;
-        left: 40%;
+        left: 45vw;
         height: 1vh;
         width: 45%;
         font-size: 2.5vw 1.5vh;
@@ -962,9 +967,61 @@ section .text {
     #ABOUT p {
         color: white;
         position: absolute;
-        width: 48vw;
+        width: 45vw;
         top: 54vh;
-        left: 40%;
+        left: 45vw;
+        height: 30vh;
+        font-size: 3vh;
+    }
+}
+
+@media (min-width: 1201px) and (max-width:1400px) {
+    #ABOUT .container1 {
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+        height: 80vh;
+        margin-top: 10vh;
+        margin-left: 7.5%;
+        box-sizing: content-box;
+    }
+
+    #ABOUT h1 {
+        position: relative;
+        font-size: 35px;
+        left: 0vw;
+        align-self: center;
+        color: white;
+        width: 100%;
+        margin: 20px;
+    }
+
+    #ABOUT .pfp {
+        border: 2px white solid;
+        border-radius: 10px 10px 10px 10px;
+        position: absolute;
+        left: 10%;
+        margin: 18vh 10vh;
+        width: 45vh;
+        height: 45vh;
+    }
+
+    #ABOUT .desc {
+        color: white;
+        position: absolute;
+        top: 30vh;
+        left: 40vw;
+        height: 1vh;
+        width: 45%;
+        font-size: 2.5vw 1.5vh;
+    }
+
+    #ABOUT p {
+        color: white;
+        position: absolute;
+        width: 45vw;
+        top: 56vh;
+        left: 40vw;
         height: 30vh;
         font-size: 3vh;
     }
@@ -990,9 +1047,9 @@ section .text {
 }
 
 #PORTFOLIO h1 {
+    font-size: 35px;
     color: white;
     text-align: center;
-    background-color: #110f16;
     padding: 0px 20px;
     border-radius: 10px;
 }
@@ -1253,7 +1310,8 @@ section .text {
     justify-content: center;
 }
 
-#BLOG h1 {
+#BLOG h1{
+    font-size: 40px;
     color: white;
     font-size: 42.5px;
     text-align: center;
@@ -1659,11 +1717,178 @@ section .text {
     left: 0;
     top: 400%;
 }
-
 #TEAM h1 {
+    margin: 2vh;;
     color: white;
     font-size: 42.5px;
     text-align: center;
+}
+#TEAM .container3{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#TEAM .pfp1 img{
+    margin: 15vh 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+    object-fit: cover;
+    width: 22vw;
+    height: 35vh;
+}
+#TEAM .pfp2 img{
+    margin: 15vh 0px;
+    border: 2px solid white;
+    border-radius: 10px;
+    object-fit: cover;
+    width: 22vw;
+    height: 35vh;
+}
+#TEAM .pfp3 img{
+    margin: 15vh;
+    border: 2px solid white;
+    border-radius: 10px;
+    object-fit: cover;
+    width: 22vw;
+    height: 35vh;
+}
+#TEAM .pfp4 img{
+    margin: 15vh;
+    border: 2px solid white;
+    border-radius: 10px;
+    object-fit: cover;
+    width: 22vw;
+    height: 35vh;
+}
+
+@media (max-width: 440px){
+    #TEAM .container3{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 15vh;
+    }
+    #TEAM .pfp1 img{
+        margin-top: 20px;
+        margin: 3vh 10px;
+        border: 2px solid white;
+        border-radius: 10px;
+        object-fit: cover;
+        width: 20vh;
+        height: 20vh;
+    }
+    #TEAM .pfp2 img{
+        margin-top: 20px;
+        margin: 3vh 10px;
+        border: 2px solid white;
+        border-radius: 10px;
+        object-fit: cover;
+        width: 20vh;
+        height: 20vh;
+    }
+    #TEAM .pfp3 img{
+        margin: 10vh 10px;
+        border: 2px solid white;
+        border-radius: 10px;
+        object-fit: cover;
+        width: 20vh;
+        height: 20vh;
+    }
+    #TEAM .pfp4 img{
+        margin: 10vh 10px;
+        border: 2px solid white;
+        border-radius: 10px;
+        object-fit: cover;
+        width: 20vh;
+        height: 20vh;
+    }
+}
+
+@media (min-width: 441px) and (max-width: 495px){
+    #TEAM .container3{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 15vh;
+    }
+    #TEAM .pfp1 img{
+        margin-top: 20px;
+        margin: 3vh 10px;
+        border: 2px solid white;
+        border-radius: 10px;
+        object-fit: cover;
+        width: 20vh;
+        height: 20vh;
+    }
+    #TEAM .pfp2 img{
+        margin-top: 20px;
+        margin: 3vh 10px;
+        border: 2px solid white;
+        border-radius: 10px;
+        object-fit: cover;
+        width: 20vh;
+        height: 20vh;
+    }
+    #TEAM .pfp3 img{
+        margin: 10vh 10px;
+        border: 2px solid white;
+        border-radius: 10px;
+        object-fit: cover;
+        width: 20vh;
+        height: 20vh;
+    }
+    #TEAM .pfp4 img{
+        margin: 10vh 10px;
+        border: 2px solid white;
+        border-radius: 10px;
+        object-fit: cover;
+        width: 20vh;
+        height: 20vh;
+    }
+}
+
+@media (min-width: 496px) and (max-width: 662px){
+    #TEAM .container3{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 15vh;
+    }
+    #TEAM .pfp1 img{
+        margin-top: 20px;
+        margin: 3vh 10px;
+        border: 2px solid white;
+        border-radius: 10px;
+        object-fit: cover;
+        width: 20vh;
+        height: 20vh;
+    }
+    #TEAM .pfp2 img{
+        margin-top: 20px;
+        margin: 3vh 10px;
+        border: 2px solid white;
+        border-radius: 10px;
+        object-fit: cover;
+        width: 20vh;
+        height: 20vh;
+    }
+    #TEAM .pfp3 img{
+        margin: 10vh 10px;
+        border: 2px solid white;
+        border-radius: 10px;
+        object-fit: cover;
+        width: 20vh;
+        height: 20vh;
+    }
+    #TEAM .pfp4 img{
+        margin: 10vh 10px;
+        border: 2px solid white;
+        border-radius: 10px;
+        object-fit: cover;
+        width: 20vh;
+        height: 20vh;
+    }
 }
 
 /* ========================== */
@@ -1679,4 +1904,190 @@ section .text {
     min-width: 100%;
     left: 0;
     top: 500%;
+}
+#CONTACT h1 {
+    margin: 10px;
+    color: white;
+    font-size: 42.5px;
+    text-align: center;
+}
+#CONTACT .container4{
+
+}
+#CONTACT img{
+    position: absolute;
+    left: 25vw;
+    top: 30vh;
+    width: 250px;
+    height: 150px;
+}
+#CONTACT form{
+    color: white;
+    position: absolute;
+    left: 45vw;
+    top: 30vh;
+}
+@media (max-width: 440px){
+    #CONTACT img{
+        display: none;
+    }
+    #CONTACT form{
+        color: white;
+        position: absolute;
+        left: 15vw;
+        top: 20vh;
+    }
+    #CONTACT input{
+        width: 50vw;
+    }
+    #CONTACT textarea{
+        width: 50vw;
+        height: 50vh;
+    }
+    #CONTACT button{
+        position: absolute;
+        top: 60vh;
+        left: 75px;
+        padding: 5px 15px;
+        border-radius: 10px;
+    }
+}
+
+@media (min-width: 441px) and (max-width: 640px){
+    #CONTACT img{
+        display: none;
+    }
+    #CONTACT form{
+        color: white;
+        position: absolute;
+        left: 15vw;
+        top: 20vh;
+    }
+    #CONTACT input{
+        width: 50vw;
+    }
+    #CONTACT textarea{
+        width: 50vw;
+        height: 50vh;
+    }
+    #CONTACT button{
+        position: absolute;
+        top: 60vh;
+        left: 75px;
+        padding: 5px 15px;
+        border-radius: 10px;
+    }
+}
+
+@media (min-width: 641px) and (max-width: 740px){
+    #CONTACT img{
+        display: none;
+    }
+    #CONTACT form{
+        color: white;
+        position: absolute;
+        left: 15vw;
+        top: 20vh;
+    }
+    #CONTACT input{
+        width: 50vw;
+    }
+    #CONTACT textarea{
+        width: 50vw;
+        height: 50vh;
+    }
+    #CONTACT button{
+        position: absolute;
+        top: 60vh;
+        left: 75px;
+        padding: 5px 15px;
+        border-radius: 10px;
+    }
+}
+
+@media (min-width: 741px) and (max-width: 940px){
+    #CONTACT img{
+        position: absolute;
+        z-index: 2;
+        top: 35vh;
+        left: 10vw;
+    }
+    #CONTACT form{
+        color: white;
+        position: absolute;
+        left: 45vw;
+        top: 20vh;
+    }
+    #CONTACT input{
+        width: 35vw;
+    }
+    #CONTACT textarea{
+        width: 35vw;
+        height: 50vh;
+    }
+    #CONTACT button{
+        position: absolute;
+        top: 60vh;
+        left: 75px;
+        padding: 5px 15px;
+        border-radius: 10px;
+    }
+}
+
+@media (min-width: 941px) and (max-width: 1200px){
+    #CONTACT img{
+        position: absolute;
+        z-index: 2;
+        top: 35vh;
+        left: 10vw;
+    }
+    #CONTACT form{
+        color: white;
+        position: absolute;
+        left: 45vw;
+        top: 20vh;
+    }
+    #CONTACT input{
+        width: 35vw;
+    }
+    #CONTACT textarea{
+        width: 35vw;
+        height: 50vh;
+    }
+    #CONTACT button{
+        position: absolute;
+        top: 60vh;
+        left: 75px;
+        padding: 5px 15px;
+        border-radius: 10px;
+    }
+}
+
+@media (min-width: 1201px) and (max-width: 1400px){
+    #CONTACT img{
+        position: absolute;
+        z-index: 2;
+        top: 35vh;
+        left: 10vw;
+    }
+    #CONTACT form{
+        color: white;
+        position: absolute;
+        left: 45vw;
+        top: 20vh;
+    }
+    #CONTACT input{
+        width: 35vw;
+    }
+    #CONTACT textarea{
+        width: 35vw;
+        height: 50vh;
+    }
+    #CONTACT button{
+        position: absolute;
+        top: 60vh;
+        left: 75px;
+        padding: 5px 15px;
+        border-radius: 10px;
+    }
 }
